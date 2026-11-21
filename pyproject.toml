@@ -1,0 +1,18 @@
+[project]
+name = "athlete-fatigue"
+version = "0.1.0"
+description = "Predicting athlete fatigue after a training session (ML project, Centrale Lyon 2026)"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "gradio>=5.0",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1",
+]
